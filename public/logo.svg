@@ -1,0 +1,19 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg" width="200" height="240">
+  <!-- Tea cup body -->
+  <path d="M 60 80 Q 55 100 55 120 Q 55 160 85 170 L 115 170 Q 145 160 145 120 Q 145 100 140 80 Z" fill="none" stroke="#CD7F32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Cup handle -->
+  <path d="M 145 95 Q 165 95 165 120 Q 165 145 145 145" fill="none" stroke="#CD7F32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Steam sticks (left) -->
+  <path d="M 70 65 Q 75 50 70 35" fill="none" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Steam sticks (right) -->
+  <path d="M 100 55 Q 105 40 100 25" fill="none" stroke="#CD7F32" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Text: TEALALK -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2D2D2D" letter-spacing="2">TEALALK</text>
+  
+  <!-- Text: COFFEE & TEA -->
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8B6F47" letter-spacing="1">COFFEE &amp; TEA</text>
+</svg>
