@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { Menu, X, ShoppingCart } from 'lucide-react';
 import { useCart } from '@/lib/cart-context';
@@ -16,6 +17,14 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
+            <Image 
+              src="/tachlogo.png" 
+              alt="TeaTalk Logo" 
+              width={40} 
+              height={40}
+              className="h-10 w-10 object-contain"
+              priority
+            />
             <div className="text-2xl font-bold">
               Tea<span className="text-[#CD7F32]">Talk</span>
             </div>

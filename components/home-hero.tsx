@@ -1,32 +1,41 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
 export function HomeHero() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-[#2D2D2D] via-[#3D3D3D] to-[#2D2D2D] overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-[#CD7F32] rounded-full mix-blend-multiply blur-3xl"></div>
-        <div className="absolute bottom-20 left-10 w-72 h-72 bg-[#8B6F47] rounded-full mix-blend-multiply blur-3xl"></div>
+    <section className="relative min-h-screen overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image 
+          src="/hero-bg.jpg" 
+          alt="TeaTalk Hero Background" 
+          fill
+          className="object-cover"
+          priority
+          quality={90}
+        />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 py-20 h-screen flex flex-col items-center justify-center">
         <div className="text-center space-y-8">
           {/* Logo and tagline */}
           <div className="space-y-4">
-            <h1 className="text-6xl md:text-7xl font-bold text-white tracking-tight">
+            <h1 className="text-6xl md:text-7xl font-bold text-white tracking-tight drop-shadow-2xl">
               Tea<span className="text-[#CD7F32]">Talk</span>
             </h1>
-            <p className="text-xl md:text-2xl text-[#D4AF9F] font-light">
+            <p className="text-xl md:text-2xl text-[#D4AF9F] font-light drop-shadow-lg">
               Coffee & Tea - Trà & Cà Phê Chất Lượng
             </p>
           </div>
 
           {/* Description */}
-          <p className="max-w-2xl mx-auto text-lg text-gray-300 leading-relaxed">
-            Khám phá thế giới của những thức uống tuyệt vời được chế biến từ nguyên liệu tốt nhất. Từ trà trái cây tươi mát đến trà sữa kem mịn, mỗi ly đều là một trải nghiệm độc đáo.
+          <p className="max-w-2xl mx-auto text-lg text-gray-100 leading-relaxed drop-shadow-lg">
+            Khám phá thế giới của những thức uống tuyệt vời được chế biến từ nguyên liệu tốt nhất. Từ trà trái cây tươi mát đến các đặc sản quốc tế, mỗi ly đều là một trải nghiệm độc đáo.
           </p>
 
           {/* CTA Buttons */}
