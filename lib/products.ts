@@ -66,15 +66,6 @@ export const products: Product[] = [
   },
   // Others
   {
-    id: 'tra-sua',
-    name: 'Trà Sữa',
-    category: 'Others',
-    description: 'Trà sữa kem mịn với hương vị cân bằng. Kèm theo trân châu dẻo.',
-    price: 52000,
-    image: '/products/tra-sua.jpg',
-    featured: true,
-  },
-  {
     id: 'nuoc-kompot',
     name: 'Nước Kompot',
     category: 'Others',

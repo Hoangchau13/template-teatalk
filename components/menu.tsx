@@ -12,7 +12,6 @@ const menuItems = {
     { name: 'Trà Ổi Hồng', description: 'Ổi hồng giàu vitamin, mát lạnh' },
   ],
   'Others': [
-    { name: 'Trà Sữa', description: 'Trà sữa truyền thống, mịn mượt' },
     { name: 'Nước Kompot', description: 'Nước ép hoa quả Nga cổ điển' },
     { name: 'Sữa Hạt', description: 'Sữa hạt tự nhiên, bổ dưỡng' },
     { name: 'Sữa Chua Kefir', description: 'Sữa chua lên men tốt cho tiêu hóa' },

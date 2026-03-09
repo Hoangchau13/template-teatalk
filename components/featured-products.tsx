@@ -69,7 +69,7 @@ export function FeaturedProducts() {
                 {/* Price and Button */}
                 <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-200">
                   <span className="text-2xl font-bold text-[#CD7F32]">
-                    {(product.price / 1000).toFixed(0)}k
+                    {product.price.toLocaleString('vi-VN')} ₫
                   </span>
                   <button
                     onClick={() => handleAddToCart(product.id)}

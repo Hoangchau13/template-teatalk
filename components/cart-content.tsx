@@ -120,7 +120,7 @@ export function CartContent() {
                       {item.product.category}
                     </p>
                     <p className="text-2xl font-bold text-[#CD7F32]">
-                      {(item.product.price / 1000).toFixed(0)}k VND
+                      {item.product.price.toLocaleString('vi-VN')} ₫
                     </p>
                   </div>
 
@@ -166,7 +166,7 @@ export function CartContent() {
                         {item.product.name} x {item.quantity}
                       </span>
                       <span className="font-semibold">
-                        {((item.product.price * item.quantity) / 1000).toFixed(0)}k
+                        {(item.product.price * item.quantity).toLocaleString('vi-VN')} ₫
                       </span>
                     </div>
                   ))}
@@ -174,7 +174,7 @@ export function CartContent() {
                 <div className="flex justify-between items-center text-2xl font-bold">
                   <span className="text-[#2D2D2D]">Tổng Cộng:</span>
                   <span className="text-[#CD7F32]">
-                    {(getTotal() / 1000).toFixed(0)}k VND
+                    {getTotal().toLocaleString('vi-VN')} ₫
                   </span>
                 </div>
               </div>

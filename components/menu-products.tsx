@@ -106,7 +106,7 @@ export function MenuProducts() {
 
                 {/* Price */}
                 <div className="text-3xl font-bold text-[#CD7F32] mb-6">
-                  {(product.price / 1000).toFixed(0)}k VND
+                  {product.price.toLocaleString('vi-VN')} ₫
                 </div>
 
                 {/* Quantity and Button */}
