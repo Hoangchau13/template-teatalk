@@ -51,7 +51,7 @@ export function BrandStory() {
                 <Heart className="text-white" size={32} />
               </div>
             </div>
-            <h3 className="text-2xl font-bold text-[#2D2D2D]">Tình Yêu Chi Tiết</h3>
+            <h3 className="text-2xl font-bold text-[#2D2D2D]">Tận Tâm Trong Từng Chi Tiết</h3>
             <p className="text-gray-600 leading-relaxed">
               Chúng tôi quan tâm đến mọi chi tiết, từ hương vị đến hình thức trình bày. Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi.
             </p>
@@ -61,7 +61,7 @@ export function BrandStory() {
         {/* Main Story */}
         <div className="bg-[#F5F1ED] rounded-lg p-12 border-l-4 border-[#CD7F32]">
           <p className="text-xl text-[#2D2D2D] leading-relaxed mb-6">
-            TeaTalk được sinh ra từ một người yêu thích trà và cà phê. Với nền tảng tri thức sâu rộng về các loại trà từ khắp nơi trên thế giới, chúng tôi quyết định tạo ra một không gian nơi mọi người có thể tìm thấy những thức uống tuyệt vời và được phục vụ bởi những người tốt bụng.
+            TeaTalk được sinh ra từ một người yêu thích trà trái cây và nước ép. Với nền tảng tri thức sâu rộng về các loại trà và nước ép từ khắp nơi trên thế giới, chúng tôi quyết định tạo ra một không gian nơi mọi người có thể tìm thấy những thức uống tuyệt vời và được phục vụ bởi những người tốt bụng.
           </p>
           <p className="text-xl text-[#8B6F47] leading-relaxed">
             Hôm nay, TeaTalk không chỉ là một cửa hàng mà là một cộng đồng của những người yêu thích những điều tốt. Mỗi khách hàng là một phần của gia đình TeaTalk.

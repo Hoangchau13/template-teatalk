@@ -68,7 +68,7 @@ export const products: Product[] = [
   // Trà Trái Cây
   {
     id: 'tra-lai-dac-thom',
-    name: 'Trà lài đặc thơm',
+    name: 'Trà lài đác thơm',
     category: 'Trà Trái Cây',
     description: 'Trà lài với hương thơm đặc trưng, thơm nồng và dễ chịu.',
     price: 40000,

@@ -29,7 +29,7 @@ export function HomeHero() {
               Tea<span className="text-[#CD7F32]">Talk</span>
             </h1>
             <p className="text-xl md:text-2xl text-[#D4AF9F] font-light drop-shadow-lg">
-              Coffee & Tea - Trà & Cà Phê Chất Lượng
+              Trà trái cây & nước ép
             </p>
           </div>
 

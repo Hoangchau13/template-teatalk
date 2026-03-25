@@ -16,12 +16,12 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl text-muted-foreground mb-4 font-medium">
-          Coffee & Tea
+          Trà trái cây và nước ép
         </p>
 
         {/* Description */}
         <p className="text-base sm:text-lg text-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Khám phá những trà trái cây tươi ngon, trà sữa hoa, nước ép tự nhiên và các đặc sản từ khắp nơi trên thế giới. Mỗi tách trà là một hành trình hương vị độc đáo.
+          Khám phá những trà trái cây tươi ngon, nước ép tự nhiên.
         </p>
 
         {/* CTA Buttons */}
